@@ -11,6 +11,13 @@ export default class Document extends NextDocument {
             id="stitches"
             dangerouslySetInnerHTML={{ __html: getCssText() }}
           />
+          <link
+            href="/fonts/Inter.var.woff2"
+            as="font"
+            type="font/woff2"
+            rel="preload"
+            crossOrigin="anonymous"
+          />
         </Head>
         <body>
           <Main />

@@ -17,6 +17,9 @@ export const { styled, getCssText, createTheme } = createStitches({
     wide: `(1920 <= width)`,
   },
   theme: {
+    fonts: {
+      sans: "Inter",
+    },
     colors: {
       ...grayDark,
       ...violetDark,
